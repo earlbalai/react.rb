@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails', '3.3.3'
   s.add_development_dependency 'timecop'
   s.add_development_dependency 'opal-rspec', '0.4.3'
-  s.add_development_dependency 'sinatra'
+  s.add_development_dependency 'sinatra', github: 'sinatra/sinatra', branch: 'master'
 
   # For Test Rails App
   s.add_development_dependency 'rails', '4.2.4'
